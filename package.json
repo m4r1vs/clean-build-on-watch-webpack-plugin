@@ -1,6 +1,6 @@
 {
   "name": "clean-build-on-watch-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "main": "index.js",
   "repository": "https://github.com/m4r1vs/clean-build-on-watch-webpack-plugin.git",
   "author": "Marius Niveri <marius.niveri@gmail.com>",
