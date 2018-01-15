@@ -1,5 +1,5 @@
-# WebPack Clean Build-Folder on Watch
 <div align="center">
+	<h1>WebPack Clean Build-Folder on Watch</h1>
   <a href="https://www.npmjs.com/package/clean-build-on-watch-webpack-plugin">
     <img src="https://img.shields.io/npm/v/clean-build-on-watch-webpack-plugin.svg?style=for-the-badge" alt="version" />
   </a>
