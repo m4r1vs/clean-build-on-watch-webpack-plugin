@@ -11,6 +11,8 @@
   </a>
 </div>
 
+
+
 This WebPack plugin removes old files from the build folder on each rebuild caused by `--watch`. To make use of this tiny plugin just install the plugin and then add it to your `webpack.config.js`:
 
 ```sh
