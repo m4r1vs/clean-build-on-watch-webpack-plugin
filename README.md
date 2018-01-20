@@ -1,30 +1,35 @@
+<h1 align="center">
+  Webpack clean on watch 🗑️
+</h1>
 <div align="center">
-	<h1>WebPack Clean Build-Folder on Watch</h1>
-  <a href="https://www.npmjs.com/package/clean-build-on-watch-webpack-plugin">
-    <img src="https://img.shields.io/npm/v/clean-build-on-watch-webpack-plugin.svg?style=for-the-badge" alt="version" />
-  </a>
-  <a href="https://www.npmjs.com/package/clean-build-on-watch-webpack-plugin">
-    <img src="https://img.shields.io/npm/dm/clean-build-on-watch-webpack-plugin.svg?style=for-the-badge" alt="version" />
-  </a>
-  <a href="https://oss.ninja/mit/m4r1vs">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
-  </a>
+	<a href="https://www.npmjs.com/package/clean-build-on-watch-webpack-plugin">
+		<img src="https://img.shields.io/npm/v/clean-build-on-watch-webpack-plugin.svg?style=for-the-badge" alt="NPM Version" />
+	</a>
+	<a href="https://www.npmjs.com/package/clean-build-on-watch-webpack-plugin">
+		<img src="https://img.shields.io/npm/dm/clean-build-on-watch-webpack-plugin.svg?style=for-the-badge" alt="NPM Downloads" />
+	</a>
+	<a href="https://oss.ninja/mit/m4r1vs">
+		<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
+	</a><br />
+  <strong>This plugin for webpack removes all unused js/css/... files on build and also working with ´--watch´ enabled.</strong>
 </div>
+<div align="center">
+  <sub>&lt;coded/&gt; with ❤︎ and ☕ by <a href="https://niveri.me">Marius Niveri</a><br />
+</div>
+<br />
+<br />
 
-
-
-This WebPack plugin removes old files from the build folder on each rebuild caused by `--watch`. To make use of this tiny plugin just install the plugin and then add it to your `webpack.config.js`:
-
+## Getting started 🚀
 ```sh
-# via npm:
-npm i clean-build-on-watch-webpack-plugin --dev
+# install via npm:
+npm i clean-build-on-watch-webpack-plugin --save-dev
 # or use yarn:
 yarn add clean-build-on-watch-webpack-plugin -D
 ```
 ```javascript
-const CleanBuildOnWatchPlugin = require('clean-build-on-watch-webpack-plugin')
+const CleanBuildPlugin = require('clean-build-on-watch-webpack-plugin')
 
 plugins: [
-	new CleanBuildOnWatchPlugin() // all you need ;)
+	new CleanBuildPlugin() // all you need :)
 ]
 ```
